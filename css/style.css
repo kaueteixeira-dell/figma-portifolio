@@ -1,0 +1,181 @@
+/*===========================================================================
+Geral
+===========================================================================*/
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: calc(12px + 0.390625vw);
+}
+section h2{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+/*===========================================================================
+header
+===========================================================================*/
+
+header nav ul li  {
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+header nav ul li  a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*===========================================================================
+Banner
+===========================================================================*/
+section.banner {
+    text-align: center;
+    margin: 0 5vw 5vw 0;
+}
+section.banner img {
+    width: 25%;
+}
+section.banner h1 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin: 20px 0 20px 0px;
+}
+section.banner p {
+    margin: 20px 0px 20px 0px;
+}
+section.banner p button {
+    background: #ff6464;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+/*============================================================================
+Posts
+============================================================================*/
+section.posts{
+    background-color: #edf7fa;
+    padding: 20px 10px 20px 10px;
+}
+section.posts ul li{
+    background-color: white;
+    margin: 20px 0px 20px 0px;
+    padding: 20px 10px 20px 10px;
+}
+section.posts ul li h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 20px 10px 20px 10px;
+}                          
+section.posts ul li p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+/*============================================================================
+Work
+============================================================================*/
+section.work{
+    padding: 20px 10px 20px 10px;
+
+}
+section.works ul li h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 20px;
+}
+section.works ul li p{
+    font-size: 1.5rem;
+}
+section.works ul li p.info{
+    color: #a6a9aa;
+    line-height: 1.5rem;
+    margin: 30px
+}
+
+section.works ul li p span{
+    background-color: #142850;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+}
+section.works ul li p{
+    font-size: 1rem;
+    line-height: 1.2;
+}
+section.works ul li{
+    padding: 0px 20px 0px 20px;
+}
+/*============================================================================
+Footer
+============================================================================*/
+footer{
+    text-align: center;
+    padding: 50vw 0px 20px 0px;
+}
+footer nav p a{
+    color: #21243D;
+    font-size: 3.0rem;
+    margin: 0px 5px 0px 5px;
+}
+
+/* CSS media query dentro de um stylesheet */
+@media (min-width: 900px) {
+    header{
+        padding: 3vw 2vw 5vw 3vw;
+    }
+    header nav ul {
+        display: flex;
+        justify-content: right;
+    }
+    header nav ul li{
+        margin: 0px 15px 0px 15px;
+    }
+    main sectionh2{
+        text-align: left;
+    }
+    section.banner{
+        display: flex;
+        flex-direction: row-reverse ;
+    }
+    .banner img {
+        width: 100%;
+    }
+    section.banner div.texto{
+        margin: 0px 10vw 0px 20vw;
+        width: 80%;
+        text-align: left;
+        padding-left: 0 10vw 0 0;
+    }       
+    section.banner img{
+        width: 80%;
+    }
+    section.posts ul{
+        display: flex;
+    }
+    section.posts{
+        padding: 3vw 10vw 3vw 10vw;
+    }
+    section.posts ul li {
+        margin: 1vw 1vw 0 1vw;
+    }
+    section.works ul {
+        display: flex;
+    } 
+    section.woks{
+        padding: 10vw 10vw 10vw 10vw;
+    }
+    section.works {
+        font-size: 2rem;
+        padding: 0 0 3vw 0;
+    }
+section.works{
+
+}
+
+}
+
+
