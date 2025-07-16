@@ -1,0 +1,61 @@
+/*====================================================================================
+header
+====================================================================================*/
+header nav ul li.atual a{
+    color: crimson;
+}
+header nav ul li{
+    text-align: right;
+    margin: 10px 10px 10px 10px;
+
+}
+/*====================================================================================
+main
+====================================================================================*/
+main {
+    margin: 5vw;
+}
+
+.comeco h1{
+    padding: 20px 20px 20px 350px;
+    margin: 10px 10px 10px 10px;
+    font-size: 2.2rem;
+}
+.comeco h2{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.comeco span{
+    border-color: aliceblue;
+    background-color: #FF7C7C;
+    border-radius: 20px;
+    padding: 4px 6px;
+}
+.texto{
+    margin: 10px 10px 10px 10px;
+}
+.comeco img{
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+.final h2{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-align: left;
+}
+.final span{
+    border-color: aliceblue;
+    background-color: #FF7C7C;
+    border-radius: 20px;
+    padding: 4px 6px;
+    margin: 10px 10px 10px 10px;
+}
+.final h3{
+    font-weight: bolder;
+    text-align: left;
+}
+.final img{
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+
